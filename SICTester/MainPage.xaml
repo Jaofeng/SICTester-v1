@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="STE.TGL.SIPanel.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:STE.TGL.SIPanel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="150" Width="150" Loaded="MainPage_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnStart" Content="開始" HorizontalAlignment="Right" Click="btnStart_Click" Margin="0,10,10,108" Width="99"/>
+        <Button x:Name="btnStop" Content="停止" HorizontalAlignment="Right" Click="btnStop_Click" Margin="0,60,10,58" IsEnabled="False" Width="99"/>
+        <Button x:Name="btnClose" Content="關閉" HorizontalAlignment="Right" Click="btnClose_Click" Margin="0,108,10,10" Width="99"/>
+    </Grid>
+</Page>
